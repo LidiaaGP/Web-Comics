@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+:root {
+  /* Colores Azul Verdoso */
+  --principal: #4918CC;
+  /* contraste Dorado */
+  --contraste: #CC4918;
+  /* Colores de Texto */
+  --texto: #212121; 
+  --textoClaro: #BDBDBD; 
+  
+  /* Tamaños */
+  --sizeFuente: 12px;
+  --sizePadding: 5px;
+  
+  /* Fuentes */
+  --fuente: 'Helvetica Neue', Arial, sans-serif;
+  --fuenteContraste: 'Georgia', 'Times New Roman', serif;
+
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: var(--fuente);
+	color: var(--texto);
+	font-size: var(--texto);
+}
+
+/*  Estilos de la cabecera  */
+header{
+	height:40px;
+	
+	display:flex;
+	flex-direction:row;
+	
+	padding:20px;
+}
+
+#cabecera_izq{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:flex-start;
+}
+h1{
+	color:var(--contraste);
+ 	font-family: var(--fuenteContraste);
+ 	font-size:40px;
+}
+
+
+
+/* estilos del cuerpo */
+main{
+	background-color: #A318CC;
+}
+
